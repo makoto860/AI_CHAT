@@ -1,12 +1,14 @@
-## 文字を入力すると答えが返ってくるAIチャット作成します。
+## 文字を入力すると答えが返ってくるAIチャット作成。
 
 ##　技術
-Node.js
-React
-OpenAI APIキー(https://auth.openai.com/log-in)
-TypeScript
-docker
-vscode
+<ul>
+  <li>Node.js</li>
+  <li>React</li>
+  <li>OpenAI APIキー(https://auth.openai.com/log-in)</li>
+  <li>TypeScript</li>
+  <li>docker</li>
+  <li>vscode</li>
+</ul>
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
