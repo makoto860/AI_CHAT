@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 文字を入力すると答えが返ってくるAIチャット作成します。
 
 ##　技術
 Node.js
@@ -7,6 +7,8 @@ OpenAI APIキー(https://auth.openai.com/log-in)
 TypeScript
 docker
 vscode
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
