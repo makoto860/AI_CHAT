@@ -1,8 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+##　技術
+Node.js
+React
+OpenAI APIキー(https://auth.openai.com/log-in)
+TypeScript
+docker
+vscode
+
 ## Getting Started
 
-First, run the development server:
+サーバー鼓動方法:
 
 ```bash
 npm run dev
