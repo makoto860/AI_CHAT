@@ -3,13 +3,17 @@
 import { useState } from "react";
 
 export default function Home() {
+  //ユーザーが入力した文字を保存
   const [message, setMessage] = useState("");
+  //AIから返ってきた返事を保存
   const [reply, setReply] = useState("");
+  //AIが考え中か
   const [loading, setLoading] = useState(false);
 
   async function sendMessage() {
     setLoading(true);
 
+    //サーバーにデータを送る
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: {
@@ -18,6 +22,7 @@ export default function Home() {
       body: JSON.stringify({ message }),
     });
 
+    //AIの返事が来るまで待つ
     const data = await res.json();
 
     setReply(data.reply);
